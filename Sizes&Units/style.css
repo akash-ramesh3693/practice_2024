@@ -1,0 +1,51 @@
+
+.backdrop{
+    position: fixed;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.5);
+    height: 100%;
+    z-index: 100;
+}
+
+/*vmin = width 800px and height 300 px if we set width to 30vim = 30 % of the height (minimum value b/w viewport width or height).
+  vmax = width 1000px and height 500 px if we set height to 30vmax = 30% of the width(maximun value b/w viewport width or height).
+*/
+
+body{
+    overflow-x:hidden;
+    margin: 0;
+}
+.parent{
+    width: 100%;
+    position:fixed;
+    background-color:blue;
+   height: 100%;
+   font-size: 20px;
+}
+
+.child{
+
+    /* position:relative; */
+    /* width: 50%; */
+
+    /* min-width: 200px; */
+    /* max-width: 1000px; */
+
+    background-color: rgb(63, 63, 63);
+    color:white;
+    /* top:0;
+    left:0; */
+    /* display: inline-block; */
+    width: 50vmax;
+    height: 50%;
+   margin: auto;
+   font-size: 2em;
+}
+
+
+.innerchild{
+    font-size: 2em;
+}
+/* html::-webkit-scrollbar{
+    width: 0;
+} */

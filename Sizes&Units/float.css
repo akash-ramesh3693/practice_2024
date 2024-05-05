@@ -1,0 +1,43 @@
+.div-1,.div-3{
+    border:2px solid orange;
+    width: 100px;
+    padding:20px;
+
+}
+
+.div-2, .div-4{
+    border:2px solid green;
+    width: 80%;
+    padding:20px;
+    margin-top: 10px;
+}
+
+.div-1{
+    float: left;
+}
+
+.div-3{
+    float:left;
+}
+.div-4{
+
+    clear: left;
+}
+
+.margin-1{
+    margin: 40px;
+}
+
+.margin-2{
+    margin:10px;
+}
+
+.parent{
+    margin:40px;
+    padding:10px;
+    
+}
+
+.child{
+    margin:50px;
+}

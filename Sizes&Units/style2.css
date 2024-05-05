@@ -1,0 +1,74 @@
+/* Grouping the classes with comma shares same styles */
+/* .box1,.box2,.box3{
+    width: 100px;
+    padding: 20px;
+    border: 5px solid gray;
+    margin: 20px;
+    background-color: blue;
+    color:white;
+} */
+
+/* 
+.box2:hover{
+    border: 5px solid greenyellow;
+    cursor: pointer;
+} */
+/*chaining the classes selector*/
+/* .box1.imp{
+    background:red !important;
+} */
+
+/*Not selector it selects box without .box2*/
+/* div:not(.box2){
+    background-color: aquamarine;
+} */
+/* 
+*{
+    box-sizing: border-box;
+} */
+
+/*Display Property*/ 
+
+.box1,.box2,.box3,.box4{
+    background: red;
+    padding: 20px;
+    width: 200px;
+    margin: 20px;
+    color:white;
+    box-sizing: border-box;
+}
+
+.box2{
+    width: 400px;
+  
+}
+
+.box4{
+    display: none;
+}
+
+/*nothing works on inline*/
+/* .box3{
+    padding: 20px;
+    width: 100px;
+    height: 200px;
+    margin: 20px;
+} */
+
+/*inline element treated as block level element*/
+.inline-block {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    display: inline-block;
+    background: blue;
+    margin: 10px;
+    color:white;
+}
+
+/*visibility:hidden* don't offer position to the the anothor element/
+
+//pending
+section-2, section-1
+float, margin collapsing with 3 types.

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="">
+        <title>html tag refresher</title>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            This is div container
+    <br>
+        <caption>Heading Tags-----------</caption>
+        <h1>This is <code>&lt;h1&gt;</code> tag</h1>
+        <h2>this is h2 tag</h2>
+        <h3>This is h3 tag</h3>
+        <h4>This is h4 tag</h4>
+        <h5>This is h5 tag</h5>
+        <h6>This is h6 tag</h6>
+        <br></br>
+        <hr size="6" color="maroon"/>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus optio, sapiente ipsam minima eveniet non at molestias ipsa odio illo, dignissimos tempore quibusdam sit tenetur, doloribus omnis quaerat temporibus.</p>
+        <p><i>italic</i> asdf <strong>strong</strong><u>Underlined</u><em>this is another type of italic</em></p>
+        <hr size="6" color="maroon"/>
+
+        <caption><h1>List Types</h1></caption>
+        <ol type="1">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ol>
+
+        <ol type="A">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ol>
+
+        <ol type="i">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ol>
+
+        <ol type="I">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ol>
+
+        <ul type="none">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ul>
+
+        <ul type="square">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ul>
+
+        <ul type="disc">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ul>
+        <ul type="circle">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ul>
+
+        <dd>
+            <dt>data</dt>
+            <dd>black hot drink</dd>
+            <dt>data</dt>
+            <dd>black hot drink</dd>
+        </dd>
+        <hr size="6" color="maroon"/>
+        <br>
+        <caption><h1>Tables Structure</h1></caption>
+        <h2>First Struture Html4 table</h2>
+        <table  bordercolor="blue" align="center" width="500" height="100" border="1" cellspacing="10" cellpadding="20">
+            <caption>Employee Table</caption>
+      
+            <tr>
+                <th>One</th>
+                <th>One</th>
+                <th>One</th>
+                <th>One</th>
+            </tr>
+            <tr>
+                <th rowspan="2">heading 2</th>
+                <td colspan="3">data</td>
+            </tr>
+            <tr>
+            
+                <td colspan="3">data2</td>
+            </tr>
+        </table>
+        <hr size="6" color="maroon"/>
+
+        <h2>Second Struture table</h2>
+
+        <table border="1" style="border:1px solid green;border-collapse:collapse"  align="center" width="700" height="100" cellspacing="10" cellpadding="20">
+           <thead>
+            <tr >
+                <th>S.no</th>
+                <th>Employee Name</th>
+                <th>Employee Dept</th>
+                <th>No.of.days</th>
+                <th>No.of.daysoff</th>
+                <th>gender</th>
+            </tr>
+           </thead>
+           <tbody align="center">
+                <tr>
+                    <td align="center">1</td>
+                    <td>John Doe</td>
+                    <td rowspan="2">Engineering</td>
+                    <td colspan="2">3</td>
+                
+                    <td rowspan="2">Male</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>John Doe 2</td>
+                    <td colspan="2">3</td>
+                </tr>
+           </tbody>
+            <tfoot>
+                <tr>
+                    <th>S.no</th>
+                    <th>Employee Name</th>
+                    <th>Employee Dept</th>
+                    <th>No.of.days</th>
+                    <th>No.of.daysoff</th>
+                    <th>gender</th>
+                </tr>
+            </tfoot>
+        </table>
+        <hr size="6" color="maroon"/>
+
+        <h1>Input tags</h1>
+        <h2>Possible Attributes</h2>
+        <ul type="square">
+            <li>required</li>
+            <li>maxlength</li>
+            <li>minlength</li>
+            <li>readonly</li>
+            <li>size</li>
+        </ul>
+        <input type="text" readonly name="username" value="akash@21" placeholder="akash@21"/>
+        <input type="password" size="20" maxlength="5" minlength="2"/>
+        <input type="email" required/>
+        <input type="date"/>
+        <input type="datetime-local"/>
+        <input type="number"/>
+        <input type="file"/>
+        <input type="checkbox"/>data
+        <input type="radio" name="ra"/>one
+        <input type="radio" name="ra"/>Two
+        <input type="radio" name="ra"/>Three
+        <textarea rows="10" cols="40" maxlength="50"></textarea>
+
+        
+        <select name="Gender">
+            <option value="male"> male</option>
+            <option value="female"> female</option>
+        </select>
+
+        <hr size="6" color="maroon"/>
+
+        <h1>Iframe tag</h1>
+        <h1>Embedding External Content with iFrame</h1>
+        <p>below is an example of embedding a youtube video using an iframe</p>
+        
+        <iframe width="560" height="315" frameborder="0" allowfullscreen
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        >
+
+        </iframe>
+        <h3>G-maps</h3>
+        <iframe width="560" height="315" frameborder="0" allowfullscreen loading="lazy"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8171646624374!2d-77.03637078573957!3d38.8976762795747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bcdecbb1df%3A0x715969d86ec812ad!2sWhite%20House!5e0!3m2!1sen!2sus!4v1617653188020!5m2!1sen!2sus" 
+        >
+
+        </iframe>
+
+        <hr size="6" color="maroon"/>
+        <h1>Button types in html5</h1>
+        <button type="button">Button</button>
+        <button type="menu">menu</button>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+        
+        <h1>Hyperlinks in Html</h1>
+
+        <a href="check.html" target="_blank">newpage</a><br/>
+        <a href="check.html" target="_self">self</a><br/>
+        <a href="check.html" target="_top">top</a><br/>
+        <a href="check.html" target="_new">new</a><br/>
+
+
+        <h1>Forms</h1>
+        <form action="./submitform" method="post" enctype="text/plain">
+            <label for="username">UserName:</label>
+            <input type="text" id="username" placeholder="user@name"/><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@mail.com" required/><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="lockmyPWD1$" required/><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male"/>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="male"/>
+            <label for="female">Female</label><br/>
+            <label for="age">Age:</label>
+            <select id="age" name="age">
+                <option value="under18">&lt;18</option>
+                <option value="18 to 25">18&lt;=25</option>
+                <option value="25 to 25">25&lt;=30</option>
+            </select><br/>
+            <label style=" position:relative; bottom: 25px;" for="message">Message:</label>
+            <textarea name="message" id="message" rows="4" cols="25" maxlength="100"></textarea><br>
+            <input type="checkbox" name="terms" id="terms"/>
+            <label for="terms">Agree Terms and conditions</label><br>
+            <button type="submit">Submit Form</button>
+        </form>
+
+        <hr size="5" color="maroon">
+
+        <h1>marquee tag</h1>
+        <marquee behaviour="scroll" scrollamount="5" direction="right">
+            Hello
+        </marquee>
+
+        <hr size="5" color="maroon">
+
+        <h1>Audio and video ctrl tag</h1>
+
+        <audio controls>
+            <source src="" type="audio/mpeg">
+            your browser does not support audio tag
+        </audio>
+        <br>
+        <video controls>
+            <source src="" type="video/mp4">
+            Here Fall back text for not supported browsers.
+        </video>
+        <hr size="5" color="maroon">
+
+        <h1>Image tag</h1>
+        <img src="" alt="this is the image alter text" width="300" height="300"/>
+        <br>
+        <hr size="5" color="maroon">
+        <h1>subscript and superscript tags</h1>
+        <p>this is <sub>subscript</sub>and this is <sup>superscript</sup></p>
+        
+        <hr size="5" color="maroon">
+        <h1>address tag</h1>
+        <address>Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+
+    </div>
+    </body> 
+</html>

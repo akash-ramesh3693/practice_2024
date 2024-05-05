@@ -1,0 +1,158 @@
+html{
+    border:5px solid gray;
+    height: 2000px;
+    background-color: aliceblue;
+
+    text-align: center;
+
+   /* overflow: hidden;  used with position relative */
+
+}
+
+body{
+    background:rgb(255, 255, 255);
+    height: 1000px;
+    border: black 5px solid;
+    padding: 20px;
+    margin: 50px;
+   /* overflow: hidden;  used with position relative */
+}
+
+.parent{
+    background:white;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+    /* overflow: hidden; */ /*used with position relative */
+}
+/* fixed view port is the positioning context */
+/* .parent .child-1{
+    background:black;
+    color:white;
+    border: 5px solid gold;
+    padding: 20px;
+    margin: 20px;
+    position: fixed;
+    top:0;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+} */
+
+/*position relative  element it self positioning context*/
+/* .parent .child-1{
+    background:black;
+    color:white;
+    border: 5px solid gold;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    top: 400px;;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+}
+ */
+/* absolute with viewport and using with other parent element is the positioning context
+.parent .child-1{
+    background:black;
+    color:white;
+    border: 5px solid gold;
+    padding: 20px;
+    margin: 20px;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  
+} */
+
+/*position sticky combination of relative and fixed 
+as soon as it reachs parent positioning context it stops sticky to the view port
+context:view port
+
+s
+
+.parent .country{
+    background:rgb(243, 40, 40);
+    color:white;
+    border: 5px solid gold;
+    padding: 20px;
+    margin: 20px;
+    position: sticky;
+    top:0;  
+}
+*/
+
+/* .parent .cities{
+    background:black;
+    color:white;
+    border: 5px solid gold;
+    padding: 20px;
+    margin: 20px;
+} */
+
+
+/*stacking context behaviour of child elements and parent elements */
+.navigation, .headline, .contact-us{
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px;
+    position: fixed;
+}
+
+.headline div{
+    background-color: rgb(120, 122, 124);
+    color: white;
+    width: 130px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.navigation{
+    background:red;
+    left:100px;
+    top: 100px;
+    width: 300px;
+}
+
+.headline {
+    background: rgb(77, 77, 248);
+    top: 150px;
+    left: 150px;
+    width: 270px;
+    height: 200px;
+    z-index: 2;
+}
+
+.contact-us {
+    background: rgb(69, 214, 69);
+    top: 180px;
+    left: 320px;
+    width: 180px;
+    z-index: 3;
+}
+
+.image-1 {
+    top: 200px;
+    left: 230px; 
+    position:fixed;
+
+}
+
+.image-2 {
+    top: 230px;
+    left: 260px;
+    position:fixed;
+    z-index:100;
+}
+
+.image-3 {
+    left: 300px;
+    top: 260px;
+    position:fixed;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <metadata charset="UTF-8">
+    <metadata name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>float</title>
+    <link rel="stylesheet" href="float.css">
+
+    <style>
+        /* div{
+            color:red;
+        }
+
+        p{
+            color: blue;
+        } */
+
+        /* h2 + p{
+            color:red;
+        } */
+
+        /* h2 ~ p{
+         color:green;
+        } */
+
+        /* div > h2 {
+            color:red;
+        } */
+
+        div p{
+            color: brown;
+        }
+
+    </style>
+</head>
+<body>
+        <!-- <h1>without clear property</h1>
+        <div class="div-1">Div-1</div>
+        <div class="div-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti incidunt aliquam harum magni reprehenderit obcaecati, delectus distinctio sit laudantium necessitatibus vitae dicta in. Optio sit minima praesentium sed sequi..</div>
+        <br><br>
+        <h1>With Clear Property</h1>
+        <div class="div-3">Div-3</div>
+        <div class="div-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eius id nesciunt adipisci eaque similique, eveniet recusandae sit. Cum repudiandae consequuntur odio in exercitationem vero illum nam reprehenderit iusto possimus.</div> -->
+
+
+        <!--Margin Collapsing 1.Adjacent Siblings-->
+        <!-- <h1 class="margin-1">This is the first block</h1>
+        <h2 class="margin-2">This is the second block</h2>
+         -->
+        <!--2.parent with children that have a margin-->
+        <!-- <div class="parent">
+            parent content
+            <div class="child">Hello</div>
+        </div> -->
+        
+        <!--Empty div's margin can collapse to one margin which has higher margin-->
+
+        <!--Inheritance-->
+
+        <!-- <div>
+            <div>
+                <h1>Color inherited from parent</h1>
+            </div>
+
+            <h2> color inherited</h2>
+
+            <p>Over writtten</p>
+            <div>
+                <article>
+                    <p>over written</p>
+                </article>
+            </div>
+           
+
+            <div>
+                <h3>inherited</h3>
+            </div>
+        </div> -->
+   
+        <!--Combinators-->
+        <!--1.Adjacent sibling-->
+        <!-- <div>
+            <h2>Not Applied</h2>
+            <p>applied</p>
+            <h2>Not Applied</h2> 
+            <h3>Not Applied</h3>
+            <p>Not Applied</p>
+            <h2>Not Applied</h2>
+            <p>Applied..!</p>
+        </div> -->
+    
+        <!--2.General Sibling-->
+       <!-- <div>
+            <h2>Not Applied</h2>
+            <p>applied</p>
+            <h2>Not Applied</h2> 
+            <h3>Not Applied</h3>
+            <article>
+                <h2>Not Applied</h2>
+                <h3>Notapplied</h3>
+                <p>Applied</p>
+            </article>
+      
+            <h2>Not Applied</h2>
+            <p>Applied..!</p>
+        </div>
+          -->
+
+         <!--3.child 2nd element is a direct child of first element-->
+
+         <!-- <div>
+            <h2>Not Applied</h2>
+            <p>applied</p>
+            <h2>Not Applied</h2> 
+            <h3>Not Applied</h3>
+            <article>
+                <h2>Not Applied</h2>
+                <h3>Notapplied</h3>
+                <p>Applied</p>
+            </article>
+      
+            <h2>Not Applied</h2>
+            <p>Applied..!</p>
+        </div> -->
+
+        <!--4. Descendant combinators-->
+<!-- 
+        <div>
+            <h2>Not Applied</h2>
+            <p>applied</p>
+            <h2>Not Applied</h2> 
+            <h3>Not Applied</h3>
+            <article>
+                <h2>Not Applied</h2>
+                <h3>Notapplied</h3>
+                <p>Applied</p>
+            </article>
+      
+            <h2>Not Applied</h2>
+            <p>Applied..!</p>
+        </div> -->
+    </body>
+</html>
