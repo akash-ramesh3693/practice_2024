@@ -1,0 +1,81 @@
+.inline{
+    padding-left: 10px;
+    width: 800px;
+    height: 500px;
+    margin-top: 500px;
+    margin-right:200px ;
+    display: inline;
+    background: #000;
+    color: white;
+}
+
+.block{
+    display: block;
+    margin: 20px;
+    width: 50%;
+    height: 200px;
+    background: #000;
+    color: white;
+    padding: 20px;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.none{
+    display: none;
+}
+
+.visiblity{
+    visibility: hidden;
+}
+
+.inline-block{
+ 
+    margin: 20px;
+    display: inline-block;
+    padding-top: 20px;
+    border: 1px solid black;
+    height: 100px;
+    vertical-align:baseline;
+}
+
+/* div:first-of-type{
+    border:1px solid red;
+} */
+
+.block::first-line{
+    color:red
+}
+
+.inline-block:hover,
+.block:hover{
+    cursor: pointer;
+    background-color: rgb(193, 193, 238);
+}
+
+.table{
+    display: table;
+    border-collapse: collapse;
+    width: 200px;
+
+}
+
+.table-row{
+    display: table-row;
+}
+
+.table-cell{
+    display: table-cell;
+    border: 1px solid red;
+    padding: 15px;
+    text-align: left;
+}
+
+/*chaining classes*/
+a.active.link{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:not(.active){
+    text-decoration:none;
+}
