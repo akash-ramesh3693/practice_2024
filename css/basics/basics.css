@@ -1,0 +1,71 @@
+body {
+    background: rgb(214, 213, 213);
+}
+
+/*Universal selector*/
+/* *{
+    color: rgb(67, 66, 64);
+} */
+
+/*Element selector*/
+/* ul li{
+    color:blue;
+} */
+
+/*Attribute Selector*/
+/* [disabled]{
+    background-color: black;
+    color: white;
+} */
+
+/*id-selector */
+/* #id-selector{
+    color:blueviolet;
+} */
+
+/*specifity conflicts-cascading styles multiple rules for the same element more specific will win */
+/* h4{
+    color:rgb(13, 185, 125);
+} */
+/*class selector*/
+/* .class-selector{
+    color:red;
+} */
+
+/* .title{
+    text-decoration:underline;
+} */
+
+/*css Inheritance child inherits property from  parents*/
+/* div{
+    color:blueviolet !important;
+} */
+
+/* p{
+    color:green;
+} */
+
+
+/*Css----combinators*/
+
+/*1. Adjacent siblings */
+/* h2 + p{
+    color:red;
+} */
+
+/*2. General Siblings */
+/* h2 ~ p {
+    color:blue
+} */
+
+/*3. Direct child second element should be direct child of first element;*/
+/* 
+div > p{
+    color: red
+} */
+
+/*4. Descendant selector*/
+
+div p{
+    color:red;
+}
