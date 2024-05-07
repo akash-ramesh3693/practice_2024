@@ -1,0 +1,45 @@
+html{
+    margin: 30px;
+    border: 2px solid gray;
+    height:100vh;
+
+}
+
+body{
+    margin: 30px;
+    border: 2px solid gray;
+    height:100vh;
+    padding: 20px;
+}
+.background-img{
+    height: 40vh;
+    /*shorthand*/
+    background:url('img/customer-1.jpg') left center/cover no-repeat border-box border-box;
+    /* background:url("img/customer-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 10px dotted orange; */
+    /* background-attachment: fixed; */
+    /* background-position: top center;
+    background-origin: border-box;
+    background-clip: border-box; */
+}
+
+/* .linear-gradient{
+    height: 30vh;
+    background-image: linear-gradient( to bottom right, red 1%, green 100% , yellow 20%, rgba(191, 138, 138, 0.5));
+} */
+
+
+.radial-gradient{
+    height:30vh;
+    background-image:radial-gradient( ellipse at 50% 50%, red , green , yellow , rgba(255,0,0,0.4)) 
+}
+@media(min-width:700px){
+    .background-img{
+        height: 60vh;
+        background-size: cover;
+        background-position: right 10% ;
+        /* background-attachment: fixed; */
+    }
+}
