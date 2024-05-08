@@ -20,14 +20,15 @@ body{
 }
 
 .item-1{
-    height: 100px;
+    height: 150px;
     width: 100px;
     color: white;
     padding: 10px;
     margin:10px;
     background: #ff7300;
     border:5px solid black;
-    flex: 1 0 500px;
+    
+    flex:0 1 400px;
     box-sizing: border-box;
     /* order:0; */
 
@@ -42,21 +43,29 @@ body{
     margin:10px;
     background: #ff7300;
      border:5px solid black;
-    flex-shrink: 2;
-    flex-basis: auto;
-    flex-grow: 2;
+     flex: 1 0 200px;
+
     /* order:1; */
 }
 
 .item-3{
-    width:150px;
+    /* width:150px;
     height: 250px;
     color: white;
     padding: 10px;
     margin:10px;
     background: #ff7300;
-    border:5px solid black;
-   
+    border:5px solid black; */
+
+    box-sizing: border-box;
+    height: 400px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    margin:10px;
+    background: #ff7300;
+     border:5px solid black;
+ flex-basis: auto;
     /* order: 2; */
 }
 
