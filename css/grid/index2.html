@@ -1,0 +1,143 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Course</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quote quote--featured">Get all of Max' courses, they really are the best!</div>
+        <div class="quote">Don't cry because it's over, smile because it happened.</div>
+        <div class="quote">I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.</div>
+        <div class="quote">Be yourself; everyone else is already taken.</div>
+        <div class="quote">So many books, so little time.</div>
+        <div class="quote">Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.</div>
+    </div>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>fit-content() Function in CSS Grid for Rows</title>
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+ 
+    grid-gap:2rem
+    /* grid-gap: 20px; */
+  }
+
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia velit nec libero vehicula</div>
+  <div class="grid-item">Sed blandit, libero non luctus auctor, arcu eros feugiat nulla, eu efficitur lacus ex at dolor. Vivamus</div>
+<div class="grid-item">Vivamus Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore vero molestias accusantium! Incidunt delectus tenetur veniam cupiditate quae ullam libero velit vel eligendi soluta. Tempore error iste magni possimus obcaecati! congue vehicula neque a bibendum. Nam vel vestibulum orci. Fusce nec erat risus. Aenean</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dense CSS Grid</title>
+<style>
+  .grid-container {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-flow: row dense; */
+
+    margin: 20px;
+    display: grid;
+
+    grid-template-columns: repeat(3, 10rem);
+    grid-template-rows: 20rem;
+    justify-content:center;
+   
+    grid-gap: 1.5rem;
+    grid-auto-rows: minmax(20rem, auto);
+    grid-auto-flow:row;
+    grid-auto-columns: 10rem;
+  }
+
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .grid-item.featured{
+    grid-column:span 2
+}
+
+  .grid-item:nth-of-type(2){
+    background: black;
+    color:white;
+    grid-column: span 2
+}
+
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-item featured">
+    <img src="image1.jpg" alt="Image 1" class="image">
+    <h2>Title 1</h2>
+    <p>Description 1</p>
+    <button>Button 1</button>
+  </div>
+  <div class="grid-item">
+    <img src="image2.jpg" alt="Image 2" class="image">
+    <h2>Title 2</h2>
+    <p>Description 2</p>
+    <button>Button 2</button>
+  </div>
+  <div class="grid-item">
+    <img src="image2.jpg" alt="Image 2" class="image">
+    <h2>Title 3</h2>
+    <p>Description 3</p>
+    <button>Button 3</button>
+  </div>
+
+  
+</div>
+
+</body>
+</html> -->
+
+
