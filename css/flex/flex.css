@@ -10,11 +10,11 @@ body{
     display: flex;
     /* height: 800px; */
     /* flex-direction: row;*/
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap; 
     border:5px solid black;
     padding:20px;
-    align-items: center;
+    align-items: flex-start;
     justify-content:flex-start;
     /* align-content:space-between;    works only with wrapping */
 }
@@ -65,7 +65,8 @@ body{
     margin:10px;
     background: #ff7300;
      border:5px solid black;
- flex-basis: auto;
+        flex-shrink: 1;
+    flex-basis: auto;
     /* order: 2; */
 }
 
